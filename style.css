@@ -39,3 +39,22 @@ li {
 .overview {
   margin-bottom: 20px;
 }
+
+.weather-temperature img {
+  margin-bottom: 10px;
+  float: left;
+  height: 64px;
+  width: 64px;
+}
+
+.weather-temperature strong {
+  color: coral;
+  font-size: 64px;
+  font-weight: 400;
+}
+
+.weather-temperature .units {
+  position: relative;
+  font-size: 15px;
+  top: -35px;
+}
